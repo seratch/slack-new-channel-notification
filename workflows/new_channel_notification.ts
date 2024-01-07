@@ -16,7 +16,7 @@ const workflow = DefineWorkflow({
 });
 
 workflow.addStep(Schema.slack.functions.SendMessage, {
-  channel_id: "C03E94MKS", // TODO: edit this parameter
+  channel_id: "C014GJXUEM6", // TODO: edit this parameter
   message:
     `Hey, <@${workflow.inputs.creator_id}> created a new public channel: <#${workflow.inputs.channel_id}> :tada:`,
 });

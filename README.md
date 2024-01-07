@@ -44,6 +44,8 @@ Replace the channel ID in `workflows/new_channel_notification.ts` as below:
 
 If you want to customize the notification message, you can edit the "message" parameter as well.
 
+If you're an Enterprise Grid customer, you must pass `team_ids` in the trigger definition alongside the channel ID. For more details, please refer to the comment in the code.
+
 ### Deploy the app
 
 Now that the app is prepared for deployment, you can run `slack deploy` command. You will be asked to create a trigger. Don't skip creating it. If you fail to create it for some reason, you can do the same with `slack trigger create --trigger-def triggers/channel_created_event.ts`.
