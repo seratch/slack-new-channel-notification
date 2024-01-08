@@ -114,6 +114,6 @@ To customize the app name and icon, you can modify `manifest.ts` and add your ow
 
 <img src="https://github.com/seratch/slack-new-channel-notification/assets/19658/3eff56b4-28fe-4da3-b88e-bb3c6581e9df" width=600 />
 
-That's it :tada: As long as you refrain from adding custom steps to this workflow, Slack's automation platform won't charge addition cost for it. For more information, kindly refer to [the help page](https://slack.com/help/articles/15363357403411).
+That's it! :tada: As long as you refrain from adding custom steps to this workflow, Slack's automation platform won't charge addition cost for it. For more information, kindly refer to [the help page](https://slack.com/help/articles/15363357403411).
 
 Enjoy automating anything!
